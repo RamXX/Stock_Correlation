@@ -111,7 +111,7 @@ st.line_chart(detrended_correlations)
 st.subheader('Conclusions')
 st.write('Whether this acquisition will ultimately be completed or not is not the focus of this analysis, as the reality \
          is much more complex than what these charts can reveal. Divergences between the stocks can occur at any time due \
-         to a variety of factors. It is crucial to understand that this information is not intended as investment advice \
+         to a variety of factors. This information is not intended as investment advice \
          and is provided \'as is\'. I cannot guarantee its accuracy or provide any representations or assurances.\n')
 
 st.write('\n\nProgram written by [Ramiro Salas](https://ramirosalas.com). [Source code available in GitHub](https://github.com/RamXX)')
