@@ -109,8 +109,9 @@ detrended_correlations = pd.DataFrame({
 st.line_chart(detrended_correlations)
 
 st.subheader('Conclusions')
-st.write('Broadcom announced their intent to acquire VMware on May 2nd, 2022. As expected, there has been a lot of speculation \
-         regarding the closure of this acquisition. By analyzing these charts, you can gain additional insights into the \
-         market\'s sentiment and expectations at any point during the 1+ year since the announcement. You can also examine \
-         how news or changes in sentiment may have affected the correlation between these two stocks.\n')
+st.write('Whether this acquisition will ultimately be completed or not is not the focus of this analysis, as the reality \
+         is much more complex than what these charts can reveal. Divergences between the stocks can occur at any time due \
+         to a variety of factors. It is crucial to understand that this information is not intended as investment advice \
+         and is provided \'as is\'. I cannot guarantee its accuracy or provide any representations or assurances.\n')
+
 st.write('\n\nProgram written by [Ramiro Salas](https://ramirosalas.com). [Source code available in GitHub](https://github.com/RamXX)')
