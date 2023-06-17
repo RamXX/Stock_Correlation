@@ -3,3 +3,4 @@ streamlit
 statsmodels
 pandas_ta
 yfinance
+numpy
